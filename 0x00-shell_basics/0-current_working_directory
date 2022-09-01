@@ -1,2 +1,3 @@
 #!/Bin/Bash
-#realpath
+pwd
+
