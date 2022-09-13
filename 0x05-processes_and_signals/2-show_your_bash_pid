@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
-ps bin
+#comment
 # shellcheck disable=SC2009
+ps bin
