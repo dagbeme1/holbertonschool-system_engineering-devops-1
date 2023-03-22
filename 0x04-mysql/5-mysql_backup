@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
 # Script that compress a SQL dump
-mysqldump --all-databases -u root -p"$1" > backup.sql
+PASSWORD="betty"
+mysqldump --all-databases -u root -p"${PASSWORD}" > backup.sql
+echo 'betty'
 tar -czvf "$(date '+%d-%m-%Y').tar.gz" backup.sql
